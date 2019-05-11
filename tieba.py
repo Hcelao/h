@@ -75,7 +75,6 @@ class Tieba:
                 self.enble = False
             else:
                 print('你的输入有误，请重新输入！')
-                p = input()
                 self.enble = True
 
 spider = Tieba()
